@@ -1,0 +1,54 @@
+#footer{
+    padding: 30px;
+    background:black;
+    color:white;
+}
+#footer a, #footerDivider a{
+    
+    color:white;
+    text-decoration: none;
+}
+#footerDivider{
+    font-style: italic;
+    font-weight: bold;
+    color:white;   
+}
+#main img{
+    max-height: 100vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+#carousel{
+    position:relative;
+}
+#carousel .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color:white;
+    background-color: rgba(0,0, 0, 0.6);
+}
+#carousel .overlay .container,
+#carousel .overlay .row{
+height: 100%;
+}
+
+.navbar .navbar-brand img{
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+.navbar-nav .nav-item a{
+    font-weight: bold;
+}
+
+.container a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
